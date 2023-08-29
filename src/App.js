@@ -77,10 +77,8 @@ function App() {
             getAllItems();
             setUpdatedItem(false);
             console.log(items);
-        }
-        // console.log(updatedItem);               
-    }, [items, updatedItem])                                                      // 
-
+        }            
+    }, [items, updatedItem])                                                      
 
     // Deleting an item from the list
     const deleteItems = async (index) => {
